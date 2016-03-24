@@ -4,7 +4,7 @@ author: "Frank La"
 date: "March 24, 2016"
 output:
   html_document:
-    fig_caption: yes
+    fig_caption: no
     force_captions: yes
     highlight: pygments
     keep_md: yes
@@ -34,7 +34,7 @@ if(!exists("activity")){
 
 Explore the data:
 
-```{r}
+```{r explore}
 str(activity)
 head(activity)
 ```

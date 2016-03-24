@@ -78,7 +78,7 @@ g1 + geom_histogram(binwidth = 500, colour="black", fill="white") +
   labs(x = "Total number of steps per day")
 ```
 
-![](PA1_template_files/figure-html/stepsperDayHist-1.png)<!-- -->
+![](PA1_template_files/figure-html/stepsperDayHist-1.png)
 
 The mean and median of the total number of steps taken per day are therefore
 
@@ -123,7 +123,7 @@ g2 + geom_line(color='blue') +
        title = "Average daily activity pattern")
 ```
 
-![](PA1_template_files/figure-html/stepsperIntv-TS-1.png)<!-- -->
+![](PA1_template_files/figure-html/stepsperIntv-TS-1.png)
 
 
 Therefore the 5-minute interval on average across all the days in the dataset that contains the maximum number of steps is
@@ -207,7 +207,7 @@ g3 + geom_histogram(binwidth = 500, colour="black", fill="white") +
   labs(x = "Total number of steps per day")
 ```
 
-![](PA1_template_files/figure-html/imputingHist-1.png)<!-- -->
+![](PA1_template_files/figure-html/imputingHist-1.png)
 
 **What is the impact of imputing missing data on the estimates of the total daily number of steps?**
 
@@ -248,4 +248,4 @@ g4 + geom_line(color='blue') + facet_grid(dayofweek ~ .) +
        title = "Average daily activity pattern (after imputation)")
 ```
 
-![](PA1_template_files/figure-html/weekday-TS-1.png)<!-- -->
+![](PA1_template_files/figure-html/weekday-TS-1.png)
